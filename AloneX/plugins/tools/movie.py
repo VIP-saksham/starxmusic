@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.enums import ParseMode
-from TEAMXMUSIC import app
+from AloneX import app
 import httpx
 
 
@@ -70,3 +70,4 @@ async def get_movie_info(query: str) -> str:
         )
 
         return info
+
