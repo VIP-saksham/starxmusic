@@ -9,7 +9,7 @@ from pyrogram.enums import ChatType
 from pyrogram.types import Message
 
 from AloneX import app
-from TAloneX.mongo.couples_db import get_couple, save_couple
+from AloneX.mongo.couples_db import get_couple, save_couple
 
 
 def today() -> str:
