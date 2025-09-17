@@ -18,7 +18,7 @@ import base64
 from AloneX import LOGGER
 from AloneX.utils.database import is_on_off
 from AloneX.utils.formatters import time_to_seconds
-from config import YT_API_KEY, YTPROXY_URL as YTPROXY
+from config import API_URL, API_KEY
 
 logger = LOGGER(__name__)
 
